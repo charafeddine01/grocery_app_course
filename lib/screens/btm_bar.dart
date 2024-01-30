@@ -6,6 +6,8 @@ import 'package:grocery_app/screens/home_screen.dart';
 import 'package:grocery_app/screens/user.dart';
 import 'package:grocery_app/widgets/text_widget.dart';
 import 'package:provider/provider.dart';
+import 'package:badges/badges.dart' as badges;
+
 
 import '../providers/dark_theme_provider.dart';
 import '../providers/cart_provider.dart';
@@ -77,7 +79,7 @@ class _BottomBarScreenState extends State<BottomBarScreen> {
           ),
           BottomNavigationBarItem(
             icon: Consumer<CartProvider>(builder: (_, myCart, ch) {
-              return Badge(
+              return badges.Badge(
                   toAnimate: true,
                   shape: BadgeShape.circle,
                   badgeColor: Colors.blue,
