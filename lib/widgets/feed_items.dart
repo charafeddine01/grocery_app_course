@@ -9,7 +9,6 @@ import 'package:grocery_app/widgets/text_widget.dart';
 import 'package:provider/provider.dart';
 
 import '../consts/firebase_consts.dart';
-import '../inner_screens/on_sale_screen.dart';
 import '../inner_screens/product_details.dart';
 import '../providers/wishlist_provider.dart';
 import '../services/global_methods.dart';

@@ -7,7 +7,6 @@ import 'package:grocery_app/consts/firebase_consts.dart';
 import 'package:grocery_app/fetch_screen.dart';
 import 'package:grocery_app/widgets/text_widget.dart';
 
-import '../screens/btm_bar.dart';
 import '../services/global_methods.dart';
 
 class GoogleButton extends StatelessWidget {
